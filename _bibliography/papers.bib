@@ -2,35 +2,157 @@
 ---
 
 @string{aps = {American Physical Society,}}
+@string{ral = {IEEE Robotics and Automation Letters ({RA-L})}}
+@string{icra = {IEEE International Conference on Robotics and Automation (ICRA)}}
+@string{tase = {IEEE Transactions on Automation Science and Engineering (T-ASE)}}
+@string{tro = {IEEE Transactions on Robotics (T-RO)}}
+@string{rss = {Robotics: Science and Systems (RSS)}}
+@string{iros = {IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
+@article{lch2025sgreg,
+  abbr={IEEE T-RO},
+  title={{SG-Reg}: {Generalizable and Efficient Scene Graph Registration}},
+  author={Liu, Chuhao and Qiao, Zhijian and Shi, Jieqi and Wang, Ke and Liu, Peize and Shen, Shaojie},
+  journal={Submitted to IEEE Trans. Robot. (TRO)},
+  year={2025},
+  preview={sgreg.png},
+  publisher={IEEE},
+  selected={true},
+  bibtex_show={true},
+  video={https://youtu.be/IDxAmvpB2T0},
+  pdf={assets/pdf/SGNet_TRO2024.pdf},
+  code={https://github.com/glennliu/SGNet}
 }
 
-@book{einstein1956investigations,
-  bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
+@article{qiao2024speak,
+  abbr={IEEE T-ASE},
+  title={{Speak the Same Language: Global LiDAR Registration on BIM Using Pose Hough Transform}},
+  author={Qiao, Zhijian and Huang, Haoming and Liu, Chuhao and Shen, Shaojie and Zhang, Fumin and Yin, Huan},
+  journal=tase,
+  preview={speak_language.png},
+  publisher={IEEE},
+  year={2025},
+  bibtext_show={true},
+  arxiv={https://arxiv.org/abs/2405.03969},
+  video={https://www.youtube.com/watch?v=SWbnsaRyL-M},
 }
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@article{liu2024fmfusion,
+  abbr={IEEE RA-L},
+  selected={true},
+  selected={true},
+  title={{FM-Fusion: Instance-aware Semantic Mapping Boosted by Vision-Language Foundation Models}},
+  author={Liu, Chuhao and Wang, Ke and Shi, Jieqi and Qiao, Zhijian and Shen, Shaojie},
+  journal=ral,
+  preview={fmfusion.png},
+  year={2024},
+  publisher={IEEE},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+  video={https://www.youtube.com/watch?v=zrzcjj9-ydk&t=1s},
+  arxiv={https://arxiv.org/abs/2402.04555},
+  code={https://github.com/HKUST-Aerial-Robotics/FM-Fusion}
+}
+
+@inproceedings{huang2025slabim,
+  abbr={ICRA},
+  title={{SLABIM: A SLAM-BIM Coupled Dataset in HKUST Main Building}},
+  author={Huang, Haoming and Qiao, Zhijian and Yu, Zehuan and Liu, Chuhao and Shen, Shaojie and Zhang, Fumin and Yin, Huan},
+  booktitle=icra,
+  preview={slabim.pdf},
+  year={2025},
+  bibtex_show={true},
+  code={https://github.com/HKUST-Aerial-Robotics/SLABIM}
+}
+
+@ARTICLE{wke2024depth,
+  abbr={IEEE RA-L},
+  author={Wang, Ke and Liu, Chuhao and Liu, Zhanwen and Xiao, Fangwei and An, Yisheng and Zhao, Xiangmo and Shen, Shaojie},
+  journal=ral, 
+  title={Multi-View Depth Estimation by Using Adaptive Point Graph to Fuse Single-View Depth Probabilities}, 
+  year={2024},
+  volume={9},
+  number={7},
+  preview={mvdepth_wk_2024.png},
+  pages={6400-6407},    
+  publisher={IEEE}
+}
+
+@Article{wke2022calibration,
+  abbr={Sensors},
+  AUTHOR = {Wang, Ke and Liu, Chuhao and Shen, Shaojie},
+  TITLE = {{Geometric Calibration for Cameras with Inconsistent Imaging Capabilities}},
+  JOURNAL = {Sensors},
+  VOLUME = {22},
+  YEAR = {2022},
+  NUMBER = {7},
+  ARTICLE-NUMBER = {2739},
+  preview={calibration_wk_sensors.png},
+  PubMedID = {35408352},
+  ISSN = {1424-8220}
+}
+
+@inproceedings{liu2023towards,
+  abbr={ICRA},
+  title={{Towards View-invariant and Accurate Loop Detection based on Scene Graph}},
+  author={Liu, Chuhao and Shen, Shaojie},
+  booktitle=icra,
+  pages={2127--2133},
+  year={2023},
+  organization={IEEE},
+  preview={lch_icra2023.jpg},
+  bibtex_show={true},
+  arxiv={https://arxiv.org/abs/2305.14885}
+}
+
+@inproceedings{luqi2021airflow,
+  abbr={ICRA},
+  author={Wang, Luqi and Zhou, Boyu and Liu, Chuhao and Shen, Shaojie},
+  booktitle=icra, 
+  title={Estimation and Adaption of Indoor Ego Airflow Disturbance with Application to Quadrotor Trajectory Planning}, 
+  year={2021},
+  volume={},
+  number={},
+  pages={384-390},
+  preview={airflow_luqi_2021.png},
+}
+
+@article{wke2021depth,
+  abbr={IEEE RA-L},
+  title={Depth estimation under motion with single pair rolling shutter stereo images},
+  author={Wang, Ke and Liu, Chuhao and Wang, Kaixuan and Shen, Shaojie},
+  journal=ral,
+  volume={6},
+  number={2},
+  pages={3160--3167},
+  year={2021},
+  publisher={IEEE},
+  preview={rs_wk_2021.png},
+  bibtex_show={true}
+}
+
+@article{lch2020ardrone,
+  abbr={IROS},
+  title={An Augmented Reality Interaction Interface for Autonomous Drone},
+  author={Liu, Chuhao and Shen, Shaojie},
+  journal=iros,
+  organization={IEEE},
+  year={2020},
+  preview={ar_iros2020.png},
+  bibtext_show={true}
+}
+
+@article{zhou2019robust,
+  abbr={IEEE RA-L},
+  title={Robust and efficient quadrotor trajectory generation for fast autonomous flight},
+  author={Zhou, Boyu and Gao, Fei and Wang, Luqi and Liu, Chuhao and Shen, Shaojie},
+  journal=ral,
+  volume={4},
+  number={4},
+  pages={3529--3536},
+  year={2019},
+  publisher={IEEE},
+  preview={fastplanner.png},
+  bibtex_show={true}
 }
 
 @article{PhysRev.47.777,
@@ -57,35 +179,7 @@
   video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
   additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
   annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
   inspirehep_id = {3255}
-}
-
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
-
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
-
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
 }
 
 @Article{einstein1905photoelectriceffect,
@@ -104,12 +198,3 @@
   award_name={Nobel Prize}
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
-}
