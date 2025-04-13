@@ -10,29 +10,32 @@ ninja.data = [{
       window.location.href = "/";
     },
   },{id: "nav-publications",
-          title: "publications",
+          title: "Publications",
           description: "publications in reversed chronological order.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/publications/";
           },
         },{id: "nav-projects",
-          title: "projects",
+          title: "Projects",
           description: "A growing collection of your cool projects.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/projects/";
           },
-        },{id: "news-a-simple-inline-announcement",
-          title: 'A simple inline announcement.',
-          description: "",
-          section: "News",},{id: "news-a-long-announcement-with-details",
+        },{id: "news-a-long-announcement-with-details",
           title: 'A long announcement with details',
           description: "",
           section: "News",handler: () => {
               window.location.href = "/news/announcement_2.html";
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
+          description: "",
+          section: "News",},{id: "news-a-paper-is-accepted-by-ieee-t-ase",
+          title: 'A paper is accepted by IEEE T-ASE.',
+          description: "",
+          section: "News",},{id: "news-i-will-defend-my-thesis-on-6th-may-10-00am-the-location-and-online-link-will-be-published-all-are-welcomed-sparkles-smile",
+          title: 'I will defend my thesis on 6th May, 10:00am. The location and online...',
           description: "",
           section: "News",},{id: "projects-project-1",
           title: 'project 1',
@@ -79,6 +82,11 @@ ninja.data = [{
           description: "another project with an image 🎉",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_project.html";
+            },},{id: "projects-formation-flight-of-9-drones",
+          title: 'Formation flight of 9 drones',
+          description: "with background image",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/skypix_project.html";
             },},{
       id: 'light-theme',
       title: 'Change theme to light',
