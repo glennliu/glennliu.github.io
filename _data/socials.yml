@@ -45,6 +45,10 @@ scholar_userid: txyCtYoAAAAJ # your Google Scholar ID
 x_username: ChuhaoL # your X handle
 # youtube_id: # your youtube channel id (youtube.com/@<youtube_id>)
 # zotero_username: # your zotero username
+# zhihu: 
+#   logo: assets/img/zhihu.png #https://cdn.worldvectorlogo.com/logos/zhihu-1.svg
+#   title: Zhihu
+#   url: https://www.zhihu.com/people/liu-chu-hao-28
 # custom_social: # can be any name here other than the ones already defined above
 #   logo: # https://www.alberteinstein.com/wp-content/uploads/2024/03/cropped-favicon-192x192.png # can be png, svg, jpg
 #   title: Custom Social
