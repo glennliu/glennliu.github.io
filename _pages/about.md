@@ -6,12 +6,13 @@ subtitle: #<a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: lch.jpg
+  image: lch_new.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>Clear Water Bay, Hong Kong</p>
 
 selected_papers: true # includes a list of papers marked as "selected={true}"
+academic_service: true
 social: true # includes social icons at the bottom of the page
 
 announcements:
@@ -29,4 +30,13 @@ Greeting! My name is Chuhao Liu(刘楚豪). I am currently pursuing my Ph.D. deg
 
 My long-term research goal is to develop a general 3D representation for SLAM and spatial intelligence. In recent years, my work has focused on 3D semantic scene graphs, multi-agent visual SLAM, and 3D scene understanding—key areas for advancing autonomous perception and interaction in complex environments.
 
-If you are interested in collaboration, feel free to reach out via email.
+If you are interested in collaboration, feel free to reach out by email.
+
+### Awards
+- Best paper award in workshop on *“Challenges in Vision-based Drones Navigation"*, IROS 2019, Macau. 
+- Outstanding conference paper on *The 11th China Conference on Intelligent Robotics*, Dalian 2015. 
+
+<!-- ### Academic Services
+- Teaching assistant for IIMP6050 obotics System Design (Instructor: [Prof. Shaojie Shen](https://ece.hkust.edu.hk/eeshaojie)), HKUST.
+- Teaching assistant for COMP3120 Computer Communication Networks (Instructor: [Prof. Chin-Tau LEA](https://seng.hkust.edu.hk/about/people/faculty/chin-tau-lea)), HKUST.
+- Reviewer for IEEE RA-L x4, ICRA x2, and IROS x8. -->

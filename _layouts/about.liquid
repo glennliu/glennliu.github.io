@@ -64,6 +64,14 @@ layout: default
       {% include selected_papers.liquid %}
     {% endif %}
 
+    <!-- Academic Services -->
+    {% if page.academic_service %}
+      <h2>
+        <a>Academic Services</a>
+      </h2>
+      {% include academic_services.liquid %}
+    {% endif %}
+
     <!-- Social -->
     {% if page.social %}
       <div class="social">
