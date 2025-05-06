@@ -1,8 +1,10 @@
 ---
 layout: post
-date: 2025-4-10 15:59:00-0400
+date: 2025-5-6 11:59:00-0400
 inline: true
 related_posts: false
 ---
 
-I will defend my thesis on 6th May, 10:00am. The venue is at room 2408, HKUST. Welcome to join my defense if you are at Hong Kong. :sparkles: :smile:
+:smile: I have successfully defended my Ph.D. thesis. 
+Thank my supervisor Prof. Shen. 
+Thank all of my examiners Prof. [Ping Tan](https://pingtan.people.ust.hk/index.html), Prof. [Dan Xu](https://www.danxurgb.net), Prof. [Zili Meng](https://zilimeng.com), and Prof. Yiqiang Wang.
