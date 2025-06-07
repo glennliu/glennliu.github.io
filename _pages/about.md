@@ -35,8 +35,3 @@ If you are interested in collaboration, feel free to reach out by email.
 ### Awards
 - Best paper award in workshop on *“Challenges in Vision-based Drones Navigation"*, IROS 2019, Macau. 
 - Outstanding conference paper on *The 11th China Conference on Intelligent Robotics*, Dalian 2015. 
-
-<!-- ### Academic Services
-- Teaching assistant for IIMP6050 obotics System Design (Instructor: [Prof. Shaojie Shen](https://ece.hkust.edu.hk/eeshaojie)), HKUST.
-- Teaching assistant for COMP3120 Computer Communication Networks (Instructor: [Prof. Chin-Tau LEA](https://seng.hkust.edu.hk/about/people/faculty/chin-tau-lea)), HKUST.
-- Reviewer for IEEE RA-L x4, ICRA x2, and IROS x8. -->
